@@ -54,7 +54,7 @@ Edit `mod.toml` in the mod folder, under `[options]`:
 - **Remote control batarang follows P1's invert setting.** Extra players don't load P1's options, so their batarang always flew inverted, even with the option off
 - **P2 can use the line launcher tightrope.** The wire only checked whether P1 was on it, so it vanished as soon as P2 flipped up onto their own line
 - **P2 can crack codes with the cryptographic sequencer.** It used P1's sticks and only gave codes to P1, so P2 could open it but never crack anything
-- **P2 no longer gets stuck after cutscenes.** The game only unlocked P1's controls when a cutscene ended. Now any player still locked is freed, and brought to P1 if the cutscene moved P1 far away
+- **P2 no longer gets stuck after cutscenes.** The game only unlocked P1's controls when a cutscene ended. Now any player still locked is freed, and brought to P1 if the cutscene moved P1 far away. Only players the cutscene also froze are brought over, so P1 finishing a fight doesn't pull P2 across the city
 - **The final boss is playable in co-op.** At the Monarch Theatre the game hands the player a special "Batman with sword" character, and P2 took it away from P1, which was an instant game over (and a black screen after the cutscene). Now P2 keeps their own character. Extra players are also saved instead of dying if they're squashed by P1 or a scene, fall out of the world, or would die during a cutscene
 - **P2 dying is a normal game over.** The game only runs the game over for P1, so P2's death left the screen black for good. Now P2 goes down (and ragdolls like P1 would), and the usual game over and checkpoint reload follow
 - **Clayface's mud men go after P2 too** in the final fight, instead of only chasing P1
