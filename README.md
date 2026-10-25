@@ -63,6 +63,8 @@ Edit `mod.toml` in the mod folder, under `[options]`:
 - **Sound works when the players split up.** The game only listened from one player, so once the players were far apart the other player's punches, gunshots and surroundings went silent. Now every player has their own listener
 - **Swap who is P1 mid-game** with the `[` key, for 2 to 4 players. The game follows P1 for the story and cutscenes, so this lets anyone take the lead without restarting
 - **Pick P2-P4's characters from the main menu** with C / V / B, instead of editing `mod.toml`. Cycles through every installed character and suit (including the story's battle-damaged Batman and Catwoman suits), shows the pick on screen and saves it
+- **No more teleporting when sliding under gaps.** Level transitions that only save the player's spot (e.g. sliding under a gap) snapped every player, P1 included and even in solo, to that spot. Now nobody moves when the game is only saving, and in co-op only the other players are brought along
+- **Solo plays like the normal game again.** Detective mode's enemy X-ray sprites, the sequencer's in-world hologram and Nightwing's wrist darts (no timer refill) were changed in solo too. These split-screen workarounds now only apply in co-op
 - **Solo play is unchanged.** All of these only apply with 2 or more players
 
 ## 🛠️ Troubleshooting
